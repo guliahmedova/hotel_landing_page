@@ -1,0 +1,75 @@
+.offers {
+    margin-block: 5rem;
+    .offers-title {
+        font-size: 2rem;
+        color: $main_blue;
+        font-weight: 400;
+        margin-bottom: 1.25rem;
+    }
+    .offers-sub-title {
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        .sub-title {
+            color: $black;
+            font-size: 3rem;
+        }
+        .sub-desc {
+            color: #1e1e1e;
+            font-size: 1.1rem;
+        }
+        .view-all-link {
+            color: $main_blue;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    .offer-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        .offer-card {
+            background-color: white;
+            border-radius: 50px;
+            padding: 1.25rem;
+            box-shadow: $nv-bx_sh;
+            .img {
+                margin-inline: auto;
+                margin-bottom: 1.75rem;
+            }
+            .category{
+                color: #5E5E5E;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .card-title{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 1.25rem;
+                .title{
+                    color: $black;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            }
+            .desc{
+                color: #5E5E5E;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 2rem;
+            }
+            .card-footer{
+                text-align: center;
+                .price{
+                    font-size: 2.25rem;
+                    font-weight: bold;
+                }
+                .time{
+                    font-size: 1rem;
+                    color: #1E1E1E;
+                }
+            }
+        }
+    }
+}

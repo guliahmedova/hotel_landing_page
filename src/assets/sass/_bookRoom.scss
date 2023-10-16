@@ -1,0 +1,46 @@
+.book-room {
+    .book-room-box {
+        background-color: #e9f3f6;
+        margin-block: 5rem;
+        border-radius: 42px;
+        padding: 4rem 5rem;
+        .book-room_title {
+            color: $black;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .book-room_text {
+            color: #5e5e5e;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .filters {
+            display: flex;
+            align-items: center;    
+            justify-content: space-between;
+            margin-top: 3.563rem;
+            .title{
+                font-size: 1rem;
+                color: $black;
+                font-weight: bold;
+            }
+            .date-input{
+                border-radius: 12px;
+                border: 0;
+                padding: 1rem;
+                box-shadow: $nv-bx_sh;
+            }
+            .select-box{
+                background-color: white;
+                border-radius: 12px;
+                border: 0;
+                padding: 1rem;
+                box-shadow: $nv-bx_sh;
+                cursor: pointer;
+            }
+        }
+    }
+}

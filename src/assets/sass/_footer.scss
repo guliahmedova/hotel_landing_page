@@ -1,0 +1,58 @@
+.footer {
+    background-color: $black;
+    padding-top: 3.625rem;
+    padding-bottom: 1.625rem;
+    .footer-column {
+        display: flex;
+        justify-content: space-between;
+
+        .form {
+            h1 {
+                color: whitesmoke;
+                font-size: 2.25rem;
+                line-height: 1.1;
+            }
+            form {
+                display: flex;
+                margin-top: 2.5rem;
+                input {
+                    padding: 1rem 3rem;
+                    border-top-left-radius: 12px;
+                    border-bottom-left-radius: 12px;
+                    border: 0;
+                    outline: 0;
+                    width: 100%;
+                    font-size: 24px;
+                    &::placeholder {
+                        color: #d9d9d9;
+                        font-style: italic;
+                    }
+                }
+                .button {
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+            }
+        }
+        .footer-nav {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 2rem;
+            row-gap: 1.25rem;
+            a {
+                text-align: end;
+                font-size: 1rem;
+                color: whitesmoke;
+            }
+        }
+    }
+
+    .copyright {
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: auto;
+        margin-top: 9rem;
+        border-top: 1px solid whitesmoke;
+        padding-top: 1rem;
+    }
+}

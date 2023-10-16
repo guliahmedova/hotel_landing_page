@@ -1,0 +1,43 @@
+.container {
+    --max-width: 1110px;
+    --container-padding: 1rem;
+
+    width: min(var(--max-width), 100% - (var(--container-padding) * 2));
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.f-column {
+    flex-direction: column;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.button {
+    background-color: $main_blue;
+    border-radius: 12px;
+    border: 0;
+    padding: 15px 32px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: $nv-bx_sh;
+    &:hover,
+    :active,
+    :focus {
+        box-shadow: none;
+        transition: 0.2s all ease-in-out;
+    }
+}
+
+.gap-1{
+    gap: 1rem;
+}
+.gap-05{
+    gap: .5rem;
+}
